@@ -5,4 +5,6 @@ All dependencies will get their path updated with the first dependency's major v
 ## To recreate
 1. Install two Go dependencies with outdated major versions. 
 2. Import them in a Go file
-3. Watch things break when renovate updates
+3. Group golang updates in renovate.jon
+4. Enable `gomodUpdateImportPaths` in `postUpdateOptions`
+5. Watch things break when renovate tries to update multiple major versions
