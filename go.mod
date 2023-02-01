@@ -5,6 +5,7 @@ go 1.19
 require (
 	github.com/caarlos0/env/v6 v6.10.1
 	github.com/google/go-github/v47 v47.1.0
+	github.com/google/go-github/v50 v50.0.0
 )
 
 require (
